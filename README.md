@@ -10,18 +10,22 @@ The goal of this project is to extract key business insights from the pizza sale
 
 The dataset used for this project is named pizza_sales, which contains detailed transaction-level data of pizza orders.
 
-| Column Name           | Description                                                     |
-| --------------------- | --------------------------------------------------------------- |
-| **pizza_id**          | Unique identifier for each pizza type                           |
-| **order_id**          | Unique identifier for each customer order                       |
-| **pizza_name_id**     | Combined name ID used for linking pizza details                 |
-| **quantity**          | Number of pizzas ordered in each record                         |
-| **order_date**        | Date on which the order was placed                              |
-| **order_time**        | Time of the order (used for hourly trend analysis)              |
-| **unit_price**        | Price of a single pizza                                         |
-| **total_price**       | Total amount for that order line (quantity × unit_price)        |
-| **pizza_size**        | Size of the pizza (S, M, L, XL, XXL)                            |
-| **pizza_category**    | Category of the pizza (Classic, Supreme, Veggie, Chicken, etc.) |
-| **pizza_ingredients** | List of ingredients used in the pizza                           |
-| **pizza_name**        | Actual name of the pizza                                        |
+| Column Name           | Description                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------------  |
+| **pizza_id**          | A unique identifier assigned to each distinct pizza variant available for ordering.       |
+| **order_id**          | A unique identifier for each order made, which links to multiple pizzas.                  |
+| **pizza_name_id**     | An identifier linking to a specific name of the pizza.                                    |
+| **quantity**          | The number of units of a specific pizza variant ordered within an order.                  |
+| **order_date**        | The date when the order was placed.                                                       |
+| **order_time**        | The time when the order was placed.                                                       |
+| **unit_price**        | The cost of a single unit of the specific pizza variant.                                  |
+| **total_price**       | The aggregated cost of all units of a specific pizza variant in an order.                 |
+| **pizza_size**        | Represents the size of the pizza (e.g., small, medium, large).                            |
+| **pizza_category**    | Indicates the category of the pizza, such as vegetarian, non-vegetarian, etc.             |
+| **pizza_ingredients** | Provides a list or description of the ingredients used in the pizza.                      |
+| **pizza_name**        | Specifies the name of the specific pizza variant ordered.                                 |
+
+
+## 📊 Dataset Source
+Link - https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset
 
