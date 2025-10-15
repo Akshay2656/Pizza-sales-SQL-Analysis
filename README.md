@@ -35,3 +35,8 @@ Link - https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset
 SQL (MySQL / PostgreSQL / SQL Server)
 
 Excel or CSV — For raw dataset handling
+
+## 🏁 Conclusion
+
+This project focuses on SQL-based data analysis to derive actionable business insights.
+It demonstrates practical SQL knowledge of aggregation, joins, subqueries, CTEs, and business analytics logic.
