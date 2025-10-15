@@ -6,6 +6,10 @@ The Pizza Sales Report is an end-to-end SQL analysis project designed to explore
 The goal of this project is to extract key business insights from the pizza sales dataset using only SQL queries.
 
 
+🗂️ Dataset Description
+
+The dataset used for this project is named pizza_sales, which contains detailed transaction-level data of pizza orders.
+
 | Column Name           | Description                                                     |
 | --------------------- | --------------------------------------------------------------- |
 | **pizza_id**          | Unique identifier for each pizza type                           |
