@@ -29,3 +29,9 @@ The dataset used for this project is named pizza_sales, which contains detailed 
 ## 📊 Dataset Source
 Link - https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset
 
+
+## 🧩 Tools Used
+
+SQL (MySQL / PostgreSQL / SQL Server)
+
+Excel or CSV — For raw dataset handling
