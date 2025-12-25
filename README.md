@@ -32,7 +32,7 @@ Link - https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset
 
 ## 🧩 Tools Used
 
-SQL (MySQL / PostgreSQL / SQL Server)
+SQL (MySQL / PostgreSQL)
 
 Excel or CSV — For raw dataset handling
 
